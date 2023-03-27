@@ -6,7 +6,9 @@ function countdown() {
 
     const seconds = (newYearsDate - currentDate) * 1000;
 
-    console.log(newYearsDate - currentDate);
+    const days = (seconds / 3600 / 24);
+
+    console.log(days);
 }
 
 // inital call
